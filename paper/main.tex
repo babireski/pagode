@@ -15,16 +15,18 @@
 \documentclass[12pt]{article}
 
 \usepackage{sbc-template}
-
+\usepackage{xcolor}
 \usepackage{graphicx,url}
+\usepackage{amsmath, amsfonts, amssymb}
 
 %\usepackage[brazil]{babel}   
 \usepackage[utf8]{inputenc}  
 
-     
+\newcommand{\helena}[1]{\textcolor{magenta}{\textbf{HELENA:} #1}}
+\newcommand{\bruno}[1]{\textcolor{blue}{\textbf{BRUNO:} #1}}
 \sloppy
 
-\title{Instructions for Authors of SBC Conferences\\ Papers and Abstracts}
+\title{Investigações acerca da modalidade da necessidade}
 
 \author{Bruno Rafael dos Santos\inst{1}, Elian Gustavo Chorny Babireski\inst{1},\\Helena Vargas Tannuri\inst{1}, Vinícios Bidin dos Santos\inst{1}}
 
@@ -32,7 +34,7 @@
 \address{Departamento de Ciência da Computação {--} Universidade do Estado de Santa Catarina
   (UDESC)\\
   Joinville {--} SC {--} Brazil
-  \email{\{bruniculos08, elianbabireski, helenavargastannuri, vinibidin\}@gmail.com}
+  \email{\{bruniculos2014, elian.babireski, helenavargastannuri, vinibidin\}@gmail.com}
 }
 
 \begin{document} 
@@ -58,48 +60,27 @@
 \end{resumo}
 
 
-\section{General Information}
+\section{Introdução}
+% (1) Explicar o que é necessidade
+A lógica modal é o estudo das relações de consequências sobre proposições necessariamente verdadeiras.
+A necessidade é um conceito tratado na lógica modal alética, a qual por sua vez é o dual de possibilidade, e portanto são interdefiníveis. Sendo $\square P$ a necessidade da proposição $P$ e $\Diamond P$ a possibilidade de $P$, então, $\Diamond P \equiv \neg \square \neg P$, analogamente, $\square P \equiv \neg \Diamond \neg P$. Estes conceitos são conhecidos como modalidades.
+
+% (2) Aristóteles
+Aristóteles, em seu trabalho~\cite{Aristotle-A}, acopla os conceitos de modalidade ao seu sistema de silogismo dedutivo. \helena{escrever mais sobre isso}
+% (2) Lewis
 
 
-\section{First Page} \label{sec:firstpage}
+\section{Definição da lógica modal alética} \label{sec:definicao}
+  \helena{blablablablalblla \cite{silveira2020implementacao}}
+  \subsection{Linguagem} \label{sec:linguagem}
+  \helena{EU QUERO FAZER ISSO AQUI}
+  \subsection{Sistema dedutivo} \label{sec:dedutivo}
+  \bruno{VOU FAZER ISSO O QUE VCS ACHAM?}
+
+\subsection{Semântica dos mundos possíveis} \label{sec:semantica}
 
 
-\section{CD-ROMs and Printed Proceedings}
-
-
-\section{Sections and Paragraphs}
-
-\subsection{Subsections}
-
-
-\section{Figures and Captions}\label{sec:figs}
-
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.5\textwidth]{fig1.jpg}
-\caption{A typical figure}
-\label{fig:exampleFig1}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.3\textwidth]{fig2.jpg}
-\caption{This figure is an example of a figure caption taking more than one
-  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
-\label{fig:exampleFig2}
-\end{figure}
-
-mito~\cite{Chellas1980-CHEMLA-2}
-\begin{table}[ht]
-\centering
-\caption{Variables to be considered on the evaluation of interaction
-  techniques}
-\label{tab:exTable1}
-\includegraphics[width=.7\textwidth]{table.jpg}
-\end{table}
-
-\section{Images}
+\section{Aplicações na computação} \label{sec:aplicacoe}
 
 
 \section{References}

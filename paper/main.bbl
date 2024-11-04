@@ -1,8 +1,13 @@
 \begin{thebibliography}{}
 
-\bibitem[Chellas 1980]{Chellas1980-CHEMLA-2}
-Chellas, B.~F. (1980).
-\newblock {\em Modal Logic: An Introduction}.
-\newblock Cambridge University Press, New York.
+\bibitem[Aristóteles 1938]{Aristotle-A}
+Aristóteles (1938).
+\newblock {\em On interpretation}.
+\newblock Harvard University Press.
+
+\bibitem[Silveira 2020]{silveira2020implementacao}
+Silveira, A. A.~d. (2020).
+\newblock Implementação de uma biblioteca de lógica modal em coq.
+\newblock Projeto de diplomação, Bacharelado em Ci{\^e}ncia da Computa{\c{c}}{\~a}o--Centro de Ciências Tecnológicas, UDESC, Joinville.
 
 \end{thebibliography}
